@@ -14,3 +14,6 @@ Before running this program, make sure you have the following installed:
 2. Compile the C file using a C compiler. For example, you can use `gcc`:
    ```bash
    gcc -o motion_detection motion_detection.c -lwiringPi
+3. Run the executable using
+   ```bash
+   sudo ./motion_detection
