@@ -5,6 +5,8 @@ This program utilizes a Raspberry Pi along with a motion sensor to detect motion
 ## Prerequisites
 
 Before running this program, make sure you have the following installed:
+- A camera plugged in via USB
+- Proper GPIO wiring as shown in GPIOwiring.jpg in this repository
 - WiringPi library
 - ffmpeg
 
