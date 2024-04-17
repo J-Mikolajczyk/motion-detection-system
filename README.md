@@ -1,14 +1,14 @@
 # Motion Detection and Video Recording with Raspberry Pi
 
-This program utilizes a Raspberry Pi along with a motion sensor to detect motion and record video when motion is detected. It employs the WiringPi library for GPIO control and uses the `ffmpeg` command-line tool for video recording.
+This program utilizes a Raspberry Pi along with a motion sensor to detect motion and record video when motion is detected. It employs the WiringPi library for GPIO control and uses the `ffmpeg` command-line tool for video recording. Videos recorded upon motion detection are saved to the same directory as the executable.
 
 ## Prerequisites
 
 Before running this program, make sure you have the following installed:
-- A camera plugged in via USB
-- Proper GPIO wiring as shown in GPIOwiring.jpg in this repository
 - WiringPi library
 - ffmpeg
+- A camera plugged in via USB
+- Proper GPIO wiring as shown in GPIOwiring.jpg in the repository
 
 ## Installation
 
