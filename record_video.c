@@ -1,9 +1,3 @@
-/**********************************************************************
-* Filename    : SenseLED.c
-* Description : Control led with infrared Motion sensor
-* Author      : www.freenove.com
-* modification: 2019/12/27
-**********************************************************************/
 #include <wiringPi.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,7 +5,6 @@
 #include <string.h>
 #include <time.h>
 
-#define ledPin    1  	//define the ledPin
 #define sensorPin 0		//define the sensorPin
 
 #define COMMAND_LENGTH 200
