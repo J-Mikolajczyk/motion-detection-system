@@ -15,7 +15,6 @@ int main(void)
 	
 	wiringPiSetup();
 	
-	pinMode(ledPin, OUTPUT); 
 	pinMode(sensorPin, INPUT);
 
 	while(1){
