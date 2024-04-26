@@ -11,11 +11,11 @@
 
 int main(void)
 {	
-	printf("Program is starting ... \n");
-	
 	wiringPiSetup();
 	
 	pinMode(sensorPin, INPUT);
+
+	printf("Program is starting ... \n");
 
 	while(1){
 		
