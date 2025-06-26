@@ -1,6 +1,8 @@
 # Motion Detection & Video Recording w/ Raspberry Pi
 
-This project enables a Raspberry Pi to detect motion using a PIR sensor and record a short video clip using a connected USB webcam. It's written in C, uses the WiringPi library for GPIO handling, and leverages `ffmpeg` to handle video recording. Videos are saved with a timestamped filename in the same directory as the executable. This project was part of the CS 
+This project enables a Raspberry Pi to detect motion using a PIR sensor and record a short video clip using a connected USB webcam. It's written in C, uses the WiringPi library for GPIO handling, and leverages `ffmpeg` to handle video recording. Videos are saved with a timestamped filename in the same directory as the executable. 
+
+This project was part of the course CS 370 - Operating Systems at Colorado State University
 
 ## Features
 
